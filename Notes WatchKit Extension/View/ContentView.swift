@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTY
-
+    @AppStorage("lineCount") var lineCount = 1
     @State private var notes: [Note] = [Note]()
     @State private var text: String = ""
 
@@ -78,13 +78,14 @@ struct ContentView: View {
                                     .frame(width: 4)
                                     .foregroundColor(.accentColor)
                                 Text(notes[i].text)
-                                    .lineLimit(1)
+                                    .lineLimit(lineCount)
                                     .padding(.leading, 5)
                             }
                         } //: HSTACK
                     } //: LOOP
                     .onDelete(perform: delete)
-                }
+                } //: LIST
+                
             } else {
                 Spacer()
                 Image(systemName: "note.text")
@@ -93,6 +94,7 @@ struct ContentView: View {
                     .foregroundColor(.gray)
                     .opacity(0.25)
                     .padding(25)
+                Spacer()
             }
         } //: VSTACK
         .navigationTitle("Notes")
@@ -105,6 +107,8 @@ struct ContentView: View {
 // MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            ContentView()
+        }
     }
 }

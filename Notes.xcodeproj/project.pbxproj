@@ -19,6 +19,7 @@
 		D7F2EBAF28542CDD00B561A3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2EBAE28542CDD00B561A3 /* DetailView.swift */; };
 		D7F2EBB12854312D00B561A3 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2EBB02854312D00B561A3 /* CreditsView.swift */; };
 		D7F2EBB42854319400B561A3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2EBB32854319400B561A3 /* HeaderView.swift */; };
+		D7F2EBB62854394100B561A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2EBB52854394100B561A3 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		D7F2EBAE28542CDD00B561A3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D7F2EBB02854312D00B561A3 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		D7F2EBB32854319400B561A3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D7F2EBB52854394100B561A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				D76EA79E28540CCF0024E7D2 /* ContentView.swift */,
 				D7F2EBAE28542CDD00B561A3 /* DetailView.swift */,
 				D7F2EBB02854312D00B561A3 /* CreditsView.swift */,
+				D7F2EBB52854394100B561A3 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				D76EA79F28540CCF0024E7D2 /* ContentView.swift in Sources */,
 				D76EA7A128540CCF0024E7D2 /* NotesApp.swift in Sources */,
+				D7F2EBB62854394100B561A3 /* SettingsView.swift in Sources */,
 				D76EA7A328540CCF0024E7D2 /* ComplicationController.swift in Sources */,
 				D7F2EBB12854312D00B561A3 /* CreditsView.swift in Sources */,
 				D7F2EBAF28542CDD00B561A3 /* DetailView.swift in Sources */,
